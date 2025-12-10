@@ -14,7 +14,7 @@ function App() {
       <div className="p-6">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/coins" element={<CoinTable />} />
+          <Route path="/coins" element={<CoinTable/>} />
           <Route path="/coins/:coinId" element={<CoinDetail />} />
           <Route path="/history" element={<HistoryTable />} />
         </Routes>
