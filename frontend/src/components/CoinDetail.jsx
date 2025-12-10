@@ -390,7 +390,7 @@ const CoinDetail = () => {
           <div className="bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg backdrop-blur-sm">
             <div className="flex items-start">
               <AlertCircle className="h-8 w-8 text-red-400 mr-3 mt-1" />
-              <div className="flex-1">
+              <div className="flex-1"> 
                 <h3 className="text-lg font-semibold text-red-300 mb-2">Database Error</h3>
                 <p className="text-red-200 mb-4">{error}</p>
                 
